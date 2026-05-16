@@ -1,9 +1,6 @@
 """Restaurant Management System."""
 
-from models.menu_item import MenuItem
-from models.order import Order
 from models.restaurant_manager import RestaurantManager
-from services.validator import Validator
 from utils.constants import CURRENCY_SYMBOL
 
 
