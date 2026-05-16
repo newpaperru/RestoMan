@@ -105,8 +105,9 @@ class RestaurantManager:
 
         # Проверка на уже существующую бронь на это время
         for booking in self.bookings:
-            if booking['table'] == table_number and booking['time'] == time and booking.get(
-                    'status') == 'active':
+            if (booking['table'] == table_number and
+                booking['time'] == time and
+                    booking.get('status') == 'active'):
                 raise ValueError(f"Стол {table_number} уже забронирован на {time}")
 
         booking = {
