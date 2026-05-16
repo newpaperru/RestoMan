@@ -52,6 +52,10 @@ class RestaurantManager:
     
     def get_menu_list(self):
         return [item.get_info() for item in self.menu]
+    
+    def get_total_revenue(self):
+        total = sum(order.total for order in self.orders)
+        return total
 
 # Функция для демонстрации работы
 def main():
