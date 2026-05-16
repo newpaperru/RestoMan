@@ -1,0 +1,8 @@
+"""Константы для проекта."""
+
+CURRENCY_SYMBOL = "₽"
+BOOKING_STATUS_ACTIVE = "active"
+BOOKING_STATUS_CANCELLED = "cancelled"
+MIN_TABLE_NUMBER = 1
+MIN_PRICE = 0.01
+MAX_NAME_LENGTH = 100
