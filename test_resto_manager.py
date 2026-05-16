@@ -1,4 +1,3 @@
-# test_resto_manager.py
 import unittest
 from resto_manager import MenuItem, Order, RestaurantManager
 
